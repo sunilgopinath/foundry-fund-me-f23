@@ -16,7 +16,6 @@ contract InteractionsTest is Test {
 
     address alice = makeAddr("alice");
 
-
     function setUp() external {
         deployFundMe = new DeployFundMe();
         fundMe = deployFundMe.run();
